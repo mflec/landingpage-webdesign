@@ -14,20 +14,20 @@ const Services = () => {
   return (
     <div
       id="contact"
-      className="grid grid-cols-1 md:grid-cols-2 md:my-8 md:px-16 md:mb-12 xl:mb-20"
+      className="grid grid-cols-1 md:grid-cols-2 md:my-8 px-8 md:px-16 md:mb-12 xl:mb-20"
     >
       {/* Services */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
         <h1 className="text-sky-900 text-[38px] font-bold">Contacto vía WhatsApp</h1>
         {wpArray.map((value) =>
-          <a target='_blank' href={value.link} className="flex flex-col align-center justify-center">
+          <a target='_blank' href={value.link} className="flex flex-col items-center justify-center">
             <RiWhatsappFill className="text-4xl p-2 bg-secondary text-green-500 box-content rounded-xl" />
             <h3 className="text-[20px] font-bold text-gray-500">{value.name}</h3>
           </a>
         )}
       </div>
       {/* {Email} */}
-      <div className="flex flex-col align-center justify-center md:mx-8">
+      <div className="flex flex-col align-center justify-center md:mx-8 items-center text-center">
         <h1 className="text-sky-900 text-[40px] font-bold">Contacto por mail</h1>
         <p className="text-[20px] text-gray-500">
           En caso de que prefieras otra forma de contacto, podemos contactarnos a tu mail
