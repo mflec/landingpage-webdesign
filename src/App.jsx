@@ -1,20 +1,18 @@
-import Clients from "./components/Clients";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Works from "./components/Works";
-import Reviews from "./components/Reviews";
-import Services from "./components/Services";
+import PrincipalSection from "./components/PrincipalSection";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import PhotosCarrousel from "./components/PhotosCarrousel";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
-      <Clients />
-      <Works />
-      <Reviews />
-      <Services />
+      <div class="divide-y text-sky-900 md:divide-y-1">
+        <Header />
+        <PrincipalSection />
+      </div>
+      <Contact />
+      <PhotosCarrousel />
       <Footer />
     </div>
   );
