@@ -13,7 +13,7 @@ const PrincipalSection = () => {
             </span>
           </h1>
           <p className="text-gray-500 text-2xl leading-[2.5rem]">
-            Familia de trabajadores con amplia experiencia en el sector, trabajando durante decadas en diferentes proyectos de construcción.
+            Familia de trabajadores provenientes de <span className="font-bold">📍Santa Fé (Capital)</span>, con amplia experiencia en el sector. Trabajando durante decadas en diferentes proyectos de construcción.
           </p>
         </div>
       </div>
