@@ -18,7 +18,7 @@ const Services = () => {
     >
       {/* Services */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
-        <h1 className="text-sky-900 text-[38px] font-bold">Contacto vía WhatsApp</h1>
+        <h1 className="text-sky-900 text-[38px] font-bold text-center md:text-right">Contacto vía WhatsApp</h1>
         {wpArray.map((value) =>
           <a target='_blank' href={value.link} className="flex flex-col items-center justify-center">
             <RiWhatsappFill className="text-4xl p-2 bg-secondary text-green-500 box-content rounded-xl" />

@@ -4,7 +4,7 @@ const PrincipalSection = () => {
 
   return (
     <div id="home"  >
-      <div className="md:col-span-5 md:flex md:items-center md:justify-center p-4 md:p-16">
+      <div className="md:col-span-5 md:flex md:items-center md:justify-center p-8 md:p-20">
         <div className="flex flex-col gap-2">
           <h1 className="text-5xl font-bold xl:leading-[7.5rem]">
             Edificando sueños,{' '}
